@@ -112,7 +112,7 @@ class SoundViewController: UIViewController {
         let sound = Sound(context : context)
         
         sound.name = nameTextField.text
-       // sound.audio = NSdata(contentsOf : audioURL!)
+        sound.audio = NSData(contentsOf: audioURL!)
         
         
         
